@@ -1,0 +1,31 @@
+html{
+	height: 100%;
+	width: 100%;
+	background-image: url("login2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body{
+	position: absolute;
+	left: 10%;
+	top: 25%;
+	width: 40%;
+	padding: 10px;
+	border: 2px solid;
+	background: transparent;
+	-webkit-box-shadow: 0px 1px 24px 5px rgba(0,0,0,0.7);
+-moz-box-shadow: 0px 1px 24px 5px rgba(0,0,0,0.7);
+box-shadow: 0px 1px 24px 5px rgba(0,0,0,0.7);
+}
+.login_form{
+	padding: 50px 60px;
+}
+.email{
+	color: #fff;
+}
+.pass{
+	color: #fff;
+}
+.rem{
+	color: #fff;
+}
