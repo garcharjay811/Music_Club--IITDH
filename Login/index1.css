@@ -1,0 +1,182 @@
+
+
+	/*html{
+		height: 100%;
+		width: 100%;
+		top: 0px;
+		left: 0px;
+		z-index: 0px;
+		-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	}*/
+	header{
+    height: 100px;
+    width: 300px;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    color: rgb(100,0,0);
+    margin-top: -100px;
+    margin-left: -150px;
+	}
+	/*.cb-slideshow,
+.cb-slideshow:after { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+/*.cb-slideshow:after { 
+    content: '';
+    background: transparent url("../images/pattern.png") repeat top left; 
+}*/
+	/*.cb-slideshow li span { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 18s linear infinite 0s;
+    -moz-animation: imageAnimation 18s linear infinite 0s;
+    -o-animation: imageAnimation 18s linear infinite 0s;
+    -ms-animation: imageAnimation 18s linear infinite 0s;
+    animation: imageAnimation 18s linear infinite 0s; 
+}*/
+	.line{
+		margin: 0;
+		padding: 0;
+	}
+		/*.header{
+			text-align: center;
+			padding: 40px;
+			background: rgba(76, 175, 80, 0.3);
+		}*/
+		ul{
+			list-style-type: none;
+			overflow: hidden;
+			display: flex;
+			margin: 0;
+			position: absolute;
+			left: 25%;/*
+			padding-left: 200px;
+			background: rgb(0, 255, 204,0.35);*/
+		}
+		li{
+			float: left;
+		}
+		li a{
+			display: block;
+			text-align: center;
+			color: white;
+			padding: 16px 50px;
+			text-decoration: none;
+		}
+		li a:not(.active)
+		{
+			background-color: rgb(0, 255, 204,0.3);
+		}
+		li a:hover:not(.active){
+			background-color: #004d3d;
+		}
+		.active{
+			background-color: #000048;
+		}
+		
+		/*.cb-slideshow li:nth-child(1) span { 
+	    	background-image: url("Green_lantern.jpg") 
+		}
+		.cb-slideshow li:nth-child(2) span { 
+	    	background-image: url("superman.jpg");
+	    	-webkit-animation-delay: 6s;
+    		-moz-animation-delay: 6s;
+   			-o-animation-delay: 6s;
+    		-ms-animation-delay: 6s;
+    		animation-delay: 6s;
+		}
+		.cb-slideshow li:nth-child(3) span { 
+	    	background-image: url("Batman.jpg");
+	    	-webkit-animation-delay: 12s;
+		    -moz-animation-delay: 12s;
+		    -o-animation-delay: 12s;
+		    -ms-animation-delay: 12s;
+		    animation-delay: 12s; 
+		}
+		@-moz-keyframes imageAnimation{
+				0%{ opacity: 0; animation-timing-function: ease-in;}
+				8%{opacity:1; animation-timing-function: ease-out;}
+				17%{opacity: 1}
+				25%{opacity: 1}
+				50%{opacity: 0}
+				100%{opacity: 0}
+		}
+*/
+
+		.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+.nav{
+		position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+	}
+
