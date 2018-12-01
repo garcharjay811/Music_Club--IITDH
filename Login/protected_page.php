@@ -127,11 +127,14 @@ sec_session_start();
                                 margin-top: 0.8rem;
                                 margin-bottom: 1rem;">
                         </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 buttons">
-                                <button type="button" class="btn btn-success btn-lg">Upload Image</button>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 buttons">
+                                <form action="newupload.php" method="post"><button type="submit" class="btn btn-success btn-lg">Upload Image</button></form>
                         </div>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 buttons">
-                                <button type="button" class="btn btn-danger btn-lg">Remove Member</button>
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 buttons">
+                                <form action="delete.php" method="post"><button type="submit" class="btn btn-danger btn-lg">Delete Image</button></form>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 buttons">
+                                <form action="remove_mem.php" method="post"><button type="submit" class="btn btn-danger btn-lg">Remove Member</button></form>
                         </div>
                         </div>
                     </div>
