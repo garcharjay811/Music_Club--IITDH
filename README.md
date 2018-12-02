@@ -1,2 +1,1 @@
-# Music_Club--IITDH
-IIT Dharwad Music Club Website
+# Music_Club--IITDH And Snake Game
